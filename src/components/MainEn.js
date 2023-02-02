@@ -31,7 +31,7 @@ const MainEn = () => {
                             </ul>
                             <ul className="nav ml-auto">
                                 <li className="nav-item">
-                                    <a href="/fa" className="btn btn-fab btn-theme no-shadow">Fa</a>
+                                    {/* <a href="/fa" className="btn btn-fab btn-theme no-shadow">Fa</a> */}
                                     {/*<Link to="/fa" className="btn btn-fab btn-theme no-shadow">Fa</Link>*/}
                                 </li>
                             </ul>
@@ -43,7 +43,7 @@ const MainEn = () => {
                 <div className="caption-header text-center wow zoomInDown">
                     <h5 className="fw-normal">Welcome</h5>
                     <h1 className="fw-light mb-4">I'm Nima <b className="fg-theme"> Ashena</b></h1>
-                    <div className="badge" style={{color: "aliceblue"}}>Software Engineer</div>
+                    <div className="badge" style={{color: "aliceblue"}}>Full Stack Developer</div>
                 </div>
 
                 <div className="floating-button"><span className="ti-mouse"/></div>
@@ -59,11 +59,8 @@ const MainEn = () => {
                         </div>
                         <div className="col-lg-6 offset-lg-1 wow fadeInRight">
                             <h1 className="fw-light">Nima Ashena</h1>
-                            <h5 className="fg-theme mb-3">Web Developer</h5>
                             <p className="text-muted">
-                                I'm a programmer and web-developer. My plan for the near future is to
-                                become a full-stack developer. Furthermore, I am interested in Artificial Intelligence
-                                and Blockchain.
+                                I'm a programmer and Full Stack Developer. Furthermore, I am interested in Artificial Intelligence.
                             </p>
                             <ul className="theme-list">
                                 <li><b>Lives In:</b> Tehran, IRAN</li>
@@ -77,72 +74,46 @@ const MainEn = () => {
                     <div className="row py-3">
                         <div className="col-md-6">
                             <div className="px-lg-3">
-                                <h4 className="wow fadeInUp">Coding skills</h4>
+                                <h4 className="wow fadeInUp">Backend</h4>
                                 <div className="progress-wrapper wow fadeInUp">
-                                    <span className="caption">JavaScript</span>
+                                    <span className="caption">NodeJS</span>
                                     <div className="progress">
-                                        <div className="progress-bar" role="progressbar" style={{width: "90%",}}
+                                        <div className="progress-bar" role="progressbar" style={{width: "100%",}}
                                              aria-valuenow="75"
-                                             aria-valuemin="0" aria-valuemax="100">90%
+                                             aria-valuemin="0" aria-valuemax="100">node js
                                         </div>
                                     </div>
                                 </div>
                                 <div className="progress-wrapper wow fadeInUp">
-                                    <span className="caption">Node JS</span>
+                                    <span className="caption">NestJS</span>
                                     <div className="progress">
-                                        <div className="progress-bar" role="progressbar" style={{width: "80%",}}
+                                        <div className="progress-bar" role="progressbar" style={{width: "100%",}}
                                              aria-valuenow="75"
-                                             aria-valuemin="0" aria-valuemax="100">80%
+                                             aria-valuemin="0" aria-valuemax="100">nest js
                                         </div>
                                     </div>
                                 </div>
-                                <div className="progress-wrapper wow fadeInUp">
-                                    <span className="caption">React JS</span>
-                                    <div className="progress">
-                                        <div className="progress-bar" role="progressbar" style={{width: "70%",}}
-                                             aria-valuenow="75"
-                                             aria-valuemin="0" aria-valuemax="100">70%
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="progress-wrapper wow fadeInUp">
-                                    <span className="caption">NestJs</span>
-                                    <div className="progress">
-                                        <div className="progress-bar" role="progressbar" style={{width: "50%",}}
-                                             aria-valuenow="75"
-                                             aria-valuemin="0" aria-valuemax="100">50%
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="progress-wrapper wow fadeInUp">
-                                    <span className="caption">HTML + CSS</span>
-                                    <div className="progress">
-                                        <div className="progress-bar" role="progressbar" style={{width: "80%",}}
-                                             aria-valuenow="75"
-                                             aria-valuemin="0" aria-valuemax="100">80%
-                                        </div>
-                                    </div>
-                                </div>
+  
                             </div>
                         </div>
                         <div className="col-md-6">
                             <div className="px-lg-3">
-                                <h4 className="wow fadeInUp">Graphic Skills</h4>
+                                <h4 className="wow fadeInUp">Frontend</h4>
                                 <div className="progress-wrapper wow fadeInUp">
-                                    <span className="caption">Photoshop</span>
+                                    <span className="caption">JavaScript</span>
                                     <div className="progress">
-                                        <div className="progress-bar" role="progressbar" style={{width: "60%",}}
+                                        <div className="progress-bar" role="progressbar" style={{width: "100%",}}
                                              aria-valuenow="75"
-                                             aria-valuemin="0" aria-valuemax="100">60%
+                                             aria-valuemin="0" aria-valuemax="100">javaScript
                                         </div>
                                     </div>
                                 </div>
                                 <div className="progress-wrapper wow fadeInUp">
-                                    <span className="caption">Premiere</span>
+                                    <span className="caption">ReactJs</span>
                                     <div className="progress">
-                                        <div className="progress-bar" role="progressbar" style={{width: "70%",}}
+                                        <div className="progress-bar" role="progressbar" style={{width: "100%",}}
                                              aria-valuenow="75"
-                                             aria-valuemin="0" aria-valuemax="100">70%
+                                             aria-valuemin="0" aria-valuemax="100">react js
                                         </div>
                                     </div>
                                 </div>

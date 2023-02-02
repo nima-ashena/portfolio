@@ -8,7 +8,7 @@ function App() {
             <BrowserRouter>
                 <Switch>
                     <Route exact path={"/"} component={MainEn}/>
-                    <Route exact path={"/fa"} component={MainFa}/>
+                    {/* <Route exact path={"/fa"} component={MainFa}/> */}
                 </Switch>
             </BrowserRouter>
         </>
