@@ -63,7 +63,6 @@ const MainEn = () => {
                                 I'm a programmer and Full Stack Developer. Furthermore, I am interested in Artificial Intelligence.
                             </p>
                             <ul className="theme-list">
-                                <li><b>Lives In:</b> Tehran, IRAN</li>
                                 <li><b>Age:</b> 24</li>
                             </ul>
                         </div>
